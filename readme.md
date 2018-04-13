@@ -13,9 +13,6 @@ This is a subscriber request video where I try to show you some brief snippets
 of how I would interview a frontend developer for a company that is looking
 for React developers.
 
-The questions are the main thing and the code tests are just a safety barrier
-just in case the candidate has unexpected issues with writing code.
-
 The goal is not to try to figure out how "good" the candidate is with code
 but rather how likely they are to be able to get productive in a short amount
 of time, what we are looking for is a gut feeling as it is almost impossible
@@ -44,7 +41,6 @@ job interview and at the end of the day most companies go with their gut.
 
 Bad answer: 
 "I don't know"
-"Because it needs a starting point"
 
 Decent answer: 
 "React needs a DOM element to hook in to"
@@ -236,11 +232,33 @@ for several years, they are questions that every React developer will face on
 a daily basis and those are the sort of questions you want your candidate to
 have answers to.
 
-It does not matter if they are superstar developers, if they don't understand
-the tools they use they will still produce bad results.
-
 Anyone can learn React just as anyone could learn jquery back in the day,
-the question is if you want someone who is good at React or just someone who
+the question is if you want someone who is good at React or someone who
 can do the job and deal with the fallout later.
 
 There are benefits to both approaches.
+
+## Challanges
+
+Present the candidate with a skeleton project and explain that they are
+not allowed to use any other libraries than the ones in the `package.json`.
+
+Junior:
+
+The junior will have to create a Todo application using Node and
+the goal is to have a Todo list that allows the user to add todos
+
+Senior:
+
+The senior will have the junior test and when a todo is clicked
+there should be a React modal that shows the todo
+
+Note: 
+
+In this video I will show you an extreme case for a senior,
+if the candidate solves this in a nice way they are extremely good,
+the goal with the test is to see how much "real" experience they have working
+with a common frontend issue that the `React mindset`* will beat
+out of them if they only work in React.
+
+`React mindset`: Everything is a tree, stay in that tree, stay inside React.

@@ -1,10 +1,13 @@
 const path = require("path");
 
 module.exports = {
-  entry: path.join(__dirname, "src", "public", "js", "junior.js"),
+  entry: {
+    junior: path.join(__dirname, "src", "public", "js", "junior.js"),
+    senior: path.join(__dirname, "src", "public", "js", "senior.js")
+  },
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "bundle.junior.js"
+    filename: "bundle.[name].js"
   },
   mode: "development",
   module: {
